@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+#chessboard {
+  /* height: 88vh; */
+  /* width: 70vw; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+.cell {
+  height: 10vh;
+  width: 7vw;
+  border: 1px solid black;
+}
+tr {
+  display: flex;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.green {
+  background-color: teal;
+}
